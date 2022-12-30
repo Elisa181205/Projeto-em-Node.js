@@ -1,0 +1,29 @@
+<html>
+  <head>
+  <title>Pagina Inicial</title>
+  <link rel="stylesheet" type="text/css" href="estilo.css"/>
+  </head>
+  <body class="body_cinza">
+
+    <div class="content">
+      <div class="cadastre_se"><h1>Cadastre-se</h1><hr></div>
+      <form action="/form" method="POST">
+        <div class="cad_name">Nome: <input type="text" name="nome" placeholder="Elizabeth" required></div>
+        <div class="cad_sobrenome">Sobrenome: <input type="text" name="sobrenome" placeholder="Santana" required></i></div>
+        <div class="cad_email">E-mail: <input type="email" name="email" placeholder="elizabeth@gmail.com" required></i></div>
+        <div class="cad_usuario">Usuário: <input type="text" name="nome_usuario" placeholder="Eliza" required></i></div>
+        <div class="cad_genero">Gênero: 
+          <select name="genero">
+            <option value="Feminino">Feminino</option>
+            <option value="Masculino">Masculino</option>
+            <option value="Outro">Outro</option>
+          </select>
+        </div>
+        <input type="hidden" name="cargo" value="1"/>
+        <div class="cad_senha">Senha: <input type="password" name="senha" id="senha" placeholder="*****" required></i></div>
+        <div class="cad_cadastrar"><input type="submit" value="Cadastrar"></div>
+      </form>
+      <div class="text_erro"><%= erro %></div>
+    </div>
+  </body>
+</html>

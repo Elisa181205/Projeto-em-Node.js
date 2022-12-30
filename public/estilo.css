@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+}
+.content{
+    width: 50%;
+    height: 40%;
+    border: solid;
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 15%;
+}
+.cad_name{
+    margin-right: 55%;
+    margin-top: 2%;
+}
+.cad_sobrenome{
+    margin-top: -4%;
+    margin-left: 48%;
+}
+.cad_email{
+    margin-right: 55%;
+    margin-top: 15px;
+}
+.cad_usuario{
+    margin-top: -4%;
+    margin-left: 52.5%;
+}
+.cad_genero{
+    margin-right: 70%;
+    margin-top: 15px;
+}
+.cad_senha{
+    margin-top: -4%;
+    margin-left: 54%;
+}
+.cad_cadastrar{
+    margin-top:5%
+}
+.cad_cadastrar input[type=submit]{
+    background-color: rgb(185, 218, 179);
+    width: 20%;
+    height: 20%;
+    margin-top: 10;
+    font-size: 1em;
+}
+
